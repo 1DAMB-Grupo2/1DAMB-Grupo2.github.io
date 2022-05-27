@@ -1,0 +1,134 @@
+#agrupar{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	background-image: url(./img/bg/grunge.jpg);
+}
+#cajasuperior{
+	width: 100%;
+	height: 170%;
+}
+#cajainferior{
+	width: 1020px;
+	height: 580px;
+	margin: 0px auto;
+	background-image: url(./img/wrapper-bg.png);
+	background-repeat: no-repeat;
+}
+#CABECERA{
+	width: 142px;
+	height: 120px;
+	margin-left: 30px;
+	background-image: url(./img/logo.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+#CABtitulo{
+	margin-top: 20px;
+	font: italic 40px Spirax;
+}
+#menu{
+	width: 400px;
+	float: left;
+	margin-left: 200px;
+	margin-top: 50px;
+}
+#menu li{
+	font: arial;
+	font-size: 14;
+	display: inline-block;
+	margin-left: 3px;
+	margin-right: 3px;
+	padding-right: 10px;
+	background-image: url(./img/nav-bullet.png);
+	background-repeat: no-repeat;
+}
+#menu li a{
+text-decoration: none;
+color: #606060;
+padding: 0px 10px 0px 10px;
+display: block;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+#menu li a:hover, #MENU li.current-menu-item a{
+color: #eee;
+background: #363636;
+background: -webkit-gradient linear, left top, left bottom, from #626262, to #353535;
+background: -moz-linear-gradient(top, #626262, #353535);
+filter: progid:DXImageTransform.Microsoft.gradient startColorstr='#626262', endColorstr='#353535', GradientType=0;
+text-shadow: 0 -1px rgba(0, 0, 0, 0.7);
+-webkit-box-shadow: 0px 1px 2px rgba(0,0,0,.5);
+-moz-box-shadow: 0px 1px 2px rgba(0,0,0,.5);
+box-shadow: 0px 1px 2px rgba(0,0,0,.5);
+}
+#menú-social{
+	width: 150px;
+	height: 36px;
+	float: right;
+	margin-top: 40px;
+	margin-right: 40px;
+}
+#menú-social li{
+	display: inline-block;
+	height: 32px;
+	width: 32px;
+}
+#SLIDER{
+	clear: both;
+	display: block;
+	width: 940px;
+	height: 365px;
+	border-radius: 400px/40px;
+	margin: 0px auto;
+}
+#seccion{
+	width: 980px;
+	height: 210px;
+	margin: 20px auto;
+	background-image: url(./img/reel-back.png);
+}
+#seccion section{
+	background-repeat: no-repeat;
+	float: left;
+	width: 300px;
+	padding-top: 10px;
+} 
+#seccion section p{
+	text-align: justify;
+}
+footer{
+	clear: both;
+	background-color: #0e0e0e;
+	font: Arial 14px;
+	color: #FFFFFF;
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+#seccionImg{
+	width: 980px;
+	height: 210px;
+	margin: 0px auto;
+}
+#seccionImg section{
+	float: left;
+	width: 300px;
+	padding-top: 10px;
+	margin: 0px auto;
+}
+#seccionVid{
+	width: 980px;
+	height: 210px;
+	margin: 0px auto;
+}
+#seccionImg section{
+	float: left;
+	width: 450px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin: 0px auto;
+}
