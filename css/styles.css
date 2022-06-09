@@ -13,9 +13,7 @@ nav {
     position: absolute;
 }
 
-p,
-li,
-h2 {
+p, li, h2 {
     color: #e9e9e9;
 }
 
@@ -25,7 +23,7 @@ form {
     padding-right: 100px;
 }
 
-div>img {
+.contenido-principal>img {
     width: auto;
     height: 800px;
 }
@@ -41,13 +39,6 @@ div>img {
     background-size: cover;
 }
 
-.contenido-sobre-nosotros {}
-
-.contenido-sobre-nosotros>p,
-li {
-    text-align: center;
-}
-
 .background-image::before {
     content: "";
     position: absolute;
@@ -56,15 +47,4 @@ li {
     bottom: 0px;
     left: 0px;
     background-color: rgba(0, 0, 0, 0.25);
-}
-
-#intro {
-    text-align: center;
-}
-
-.imagen_intro {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
 }
