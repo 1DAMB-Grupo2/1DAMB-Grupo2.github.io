@@ -18,6 +18,23 @@ form {
     padding-left: 100px;
     padding-right: 100px;
 }
+
+
+.bg-image {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../imgs/img1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
 #intro{
 	text-align: center;
 }
