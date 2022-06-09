@@ -13,11 +13,25 @@ nav {
     position: absolute;
 }
 
+main > div {
+    margin: 40px;
+}
+
+main > div > p, h2{
+    color: rgb(230, 230, 230);
+}
+
 form {
     padding-top: 100px;
     padding-left: 100px;
     padding-right: 100px;
 }
+
+main {
+    height: 10px;
+    width:auto;
+}
+
 
 
 .bg-image {
